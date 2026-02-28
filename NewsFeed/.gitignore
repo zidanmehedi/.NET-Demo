@@ -1,0 +1,64 @@
+# =====================================
+# Visual Studio / IDE
+# =====================================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+.vscode/
+
+# =====================================
+# Build outputs
+# =====================================
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# =====================================
+# NuGet packages
+# =====================================
+*.nupkg
+*.snupkg
+packages/
+# Packages can be restored, don't commit binaries
+
+# =====================================
+# Secrets / credentials
+# =====================================
+secrets.json
+*.pfx
+*.key
+*.pem
+
+# =====================================
+# Logs
+# =====================================
+*.log
+
+# =====================================
+# OS generated files
+# =====================================
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*.tmp
+
+# =====================================
+# EF Core / Database
+# =====================================
+*.db                  # Ignore local SQLite or test DBs
+*.mdf                 # Ignore local SQL Server DBs
+*.ldf                 # Ignore log files
+
+# =====================================
+# Misc / temp
+# =====================================
+*.ncrunch*
+*.resharper*
