@@ -7,6 +7,6 @@
         public string Content { get; set; }
         public int NewsId { get; set; }
         public DateTime CreatedDate { get; set; }
-        public News? News { get; set; }
+        public News News { get; set; }
     }
 }
